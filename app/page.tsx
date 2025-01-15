@@ -16,7 +16,7 @@ export default function Home() {
     <div className="p-4 md:p-6 pb-20 md:pb-6 bg-zinc-950 h-full">
       <div className="flex flex-col sm:flex-row justify-between items-start mb-6">
         <h1 className="text-2xl font-bold text-gray-100 mb-4 sm:mb-0">Dashboard</h1>
-        <Button variant="outline" className="border-gray-800 text-gray-200 hover:bg-gray-800">
+        <Button variant="outline" className="border-gray-800 hover:text-gray-200 hover:bg-gray-800">
           <Download className="mr-2 h-4 w-4" />
           Export Analysis
         </Button>
